@@ -1,0 +1,20 @@
+http is not https
+
+Illegal request, responding with status '400 Bad Request': 
+Unsupported HTTP method: HTTP method too long (started with 'ﾪﾦ￭E￈kG'). Increase `akka.http.server.parsing.max-method-length` to support HTTP methods with more characters.
+
+I met this error on play framework. So I asked the people on the net about this and they replied me with: http!=https.
+
+You click to check out at an online merchant. Suddenly your browser address bar says HTTPS instead of HTTP. What's going on? Is your credit card information safe?
+
+Good news. Your information is safe. The website you are working with has made sure that no one can steal your information.
+
+Instead of HyperText Transfer Protocol (HTTP), this website uses HyperText Transfer Protocol Secure (HTTPS).
+
+Using HTTPS, the computers agree on a "code" between them, and then they scramble the messages using that "code" so that no one in between can read them. This keeps your information safe from hackers.
+
+They use the "code" on a Secure Sockets Layer (SSL), sometimes called Transport Layer Security (TLS) to send the information back and forth.
+
+How does HTTP work? How is HTTPS different from HTTP? This tutorial will teach you about SSL, HTTP and HTTPS.
+
+However, a web application may just support http rather than https in somehow. And this time it is the case that https can not be used.
