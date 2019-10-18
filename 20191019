@@ -1,0 +1,5 @@
+jsp
+
+最近在看jsp。tmcat的源码。
+他是把jsp翻译成了java，然后再ant编译成class文件。
+这个很有意思，于是我也想试试用ant编译一下class文件看看能不能出来。
